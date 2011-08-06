@@ -1,0 +1,10 @@
+This is mainly lifted from (URL over 2 lines here:)
+http://www.velocityreviews.com/forums/t141237-send-smtp-mail-using-javamail
+-with-gmail-account.html but with the main difference that the
+authentication details are not stored in the source, and are instead
+stored in a Java properties file. This is made slightly more tricky on
+the basis that you can't just implement an inner class, as otherwise
+the Properties file needs to be final, which defeats the purpose of
+it. You'll note that there is no properties file included in the Git
+project, because I'm not wanting to tell you my authentication details
+;)
