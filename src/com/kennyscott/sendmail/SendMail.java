@@ -32,9 +32,9 @@ public class SendMail {
 	private static final String SMTP_PORT = "465";
 	private static final String emailMsgTxt = "Test Message Contents";
 	private static final String emailSubjectTxt = "Yet another test from gmail";
-	private static final String emailFromAddress = "kenny@example.com";
+	private static final String emailFromAddress = "you@example.com";
 	private static final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
-	private static final String[] sendTo = { "kenny@kennyscott.co.uk" };
+	private static final String[] sendTo = { "me@example.com" };
 
 	public static void main( String args[] ) throws Exception {
 		SendMail sm = new SendMail();
